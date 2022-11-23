@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mind Your Data</title>
+  <link rel="stylesheet" href="css/style.myd.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="js/js.myd.js"></script>
+  <link rel="icon" href="img/logo_mini_sem_cerebro.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+    #relogio {
+
+      font-family: ProFontWindows, sans-serif;
+    }
+  </style>
+  <script src="js/menu.myd.js"></script>
+
+</head>
+
+<body class="body">
+  <div class="icon" id="esquerda">
+    <a href="/"><img src="img/logoJest_Branco.png" alt="Logotipo da Júnior Empresa" height="30" /></a>
+  </div>
+  <div class="icon" id="icon">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+
+  <nav class="stroke" id="navbar">
+
+    <ul>
+      <li id="logo"><a href="/"><img id="logo2" src="img/logoJest_Branco.png" height="30" /></a></li>
+      <li><a href="#initial">Inicio</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#edicoesanteriores">Edições Anteriores</a></li>
+      <li><a href="#oradores">Palestras</a></li>
+      <li><a href="#formadores">Workshops</a></li>
+      <li><a href="#debatentes">Debates</a></li>
+      <li><a href="#planeamento">Programa</a></li>
+      <li><a href="#precos">Preços</a></li>
+      <li><a href="#apoios">Apoios</a></li>
+      <li><a href="#voluntariado">Voluntariado</a></li>
+      <li><a href="#participar">Participar</a></li>
+      <li style="display:none"><a id="Linguagem">EN</a></li>
+    </ul>
+  </nav>
+
+  <scroll-container>
+
+    <main>
+      <scroll-page id="initial">
+        <div id="logo_myd">
+          <img id="logo_myd__img" src="img/logoMYD.png" height="3452" width="5139" alt="Logotipo Mind Your Data" />
+        </div>
+        <scrool-page id="about">
+
+          <div class="info about">
+
+
+            <h1 class="tit_grande1">
+              MYD by JEST
+            </h1>
+            <p>
+              A JEST — Junior Enterprise for Science and Technology é uma júnior empresa da Universidade
+              de
+              Coimbra que tem como objetivo a formação dos estudantes ao nível da data science.
+            </p>
+            <p>
+              Em 2017 lançou a primeira edição de uma conferência, 'MYD — Mind Your Data', com o objetivo
+              de trazer e impulsionar esta área emergente junto dos estudantes e investigadores da nossa
+              universidade.
+            </p>
+            <p>
+              Contou com a presença de representantes da Feedzai, Bosch Pt, Novabase, Critical Software,
+              Go
+              WiFi e com
+              a DSPT — Data Science Portugal .
+
+            </p>
+
+          </div>
+        </scrool-page>
+        <div id="info1">
+          <h1 class="tit_grande1 no_bottom_margin">Edição 2022</h1>
+          <h2 class="tit_medio small_top_margin">(26 e 27 de fevereiro)</h2>
+        </div>
+        <scrool-page id="oradores">
+          <div class="info">
+            <div id="palestrantes">
+              <h1 class="tit_grande">Palestras</h1>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Patrícia Silva</h2>
+                  <h3 class="orador_nome_palestra_workshop">"Introdução a AI e as suas aplicabilidades"</h3>
+                  <p>Patrícia Silva (26 anos) é mestre em Engenharia Física pelo DF da FCTUC, mas Engenheira Informática wannabe.
+                    De coração lançou-se profissionalmente naquilo que mais gosta de fazer – programar, mais especificamente no âmbito da Inteligência Artificial em 2019.
+                    Desde então tem desempenhado o papel de Machine Learning/Deep Learning Software Developer na Retmarker, uma empresa de AI que se dedica ao desenvolvimento de tecnologias de apoio à deteção e monitorização de doenças da retina que
+                    depois comercializa globalmente.
+                    Quando não está atrás dos seus 3 monitores a dar debug ao Keras ou a jogar, provavelmente encontram-na no aeroporto prestes a apanhar o primeiro voo da manhã para um sítio qualquer.</p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/ines_pessoa-01.png" height="1200" width="1200" alt="Foto Orador (Inês Pessoa)" />
+                </div>
+              </div>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Mário Gaspar da Silva</h2>
+                  <h3 class="orador_nome_palestra_workshop">"Inteligência Artificial e Data Science na
+                    Saúde"</h3>
+                  <p>Mário Gaspar da Silva, Prof Catedrático de Eng Informática no IST e Director de
+                    Investigação e Inovação da Truewind, SA. Colabora em várias iniciativas promoção da
+                    ciência de dados no ensino, inovação e investigação nas ciências e tecnologias da
+                    saúde. Vem falar-nos do impacto das novas tecnologias de inteligência artificial e
+                    ciência de dados na saúde.
+                  </p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/mario_gaspar-03.png" height="1200" width="1200" alt="Foto Orador (Mário Gaspar da Silva)" />
+                </div>
+              </div>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Bruno Santos (Noesis)</h2>
+                  <h3 class="orador_nome_palestra_workshop">"Sucess Stories by Noesis"</h3>
+                  <p>Com mais de 20 anos de prática de TI, Bruno Santos lidera a unidade de Data Analytics
+                    & AI nos setores: HealthCare, Pharma, Media, Technology, Public & Non-Profit, em
+                    diversas geografias. Tem apoiado múltiplas organizações a criarem uma cultura
+                    orientada a dados, promovendo a tomada de decisões suportada nos mesmos. Com
+                    licenciatura em Gestão pelo ISEG, ocupou diversos cargos em consultoria,
+                    desenvolvimento de negócio e liderança.</p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/bruno_santos-04.png" height="1200" width="1200" alt="Foto Orador (Bruno Santos)" />
+
+                </div>
+              </div>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Fábio Paixão (Noesis)</h2>
+                  <h3 class="orador_nome_palestra_workshop">"Artificial Intelligence Into Practice"</h3>
+                  <p>Fábio Paixão iniciou o seu percurso profissional como Data Scientist na área de
+                    Artificial Intelligence (AI) há cerca de quatro anos.
+                    Neste momento, encontra-se na equipa de AI da Noesis Portugal, onde tem como
+                    principal responsabilidade desenvolver soluções de Machine e Deep Learning para
+                    sistemas de recomendações e de forecast, entre outros.
+                    Fábio Paixão é formado em Engenharia Mecânica pelo Institut National Polytechnique
+                    de Toulouse e conta com um mestrado em Artificial Intelligence pela Vrije
+                    Universiteit Amsterdam. Começou o seu percurso profissional ministrando formações a
+                    alunos de mestrado em AI na Universiteit van Amsterdam. Especializou-se, depois, em
+                    Machine Translation e em Natural Language Processing (NLP), onde teve oportunidade
+                    de enriquecer a sua experiência profissional. Desde então, tem a cargo o
+                    desenvolvimento de soluções aplicadas a diferentes áreas da AI, como sistemas de
+                    recomendação, Computer Vision, e outros.</p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/fabio_paixao-05.png" height="1200" width="1200" alt="Foto Orador (Fábio Paixão)" />
+
+                </div>
+              </div>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Luís Rita (CycleAI)</h2>
+                  <h3 class="orador_nome_palestra_workshop">"Using Data Science to Boost Sustainable
+                    Cities"</h3>
+                  <p>O meu nome é Luís Rita. Sou Engenheiro Biomédico, Doutorando em Medicina
+                    Computacional (Imperial College London), redator em Towards Data Science, Digital
+                    Top Talent Under 25 e cofundador da CycleAI com Miguel Peliteiro. No CycleAI, o
+                    nosso objetivo é capacitar os ciclistas na luta pela sua própria segurança. Ao
+                    executar vários modelos de crowdsourcing e aliar a IA à nossa experiência em ciência
+                    de dados, tornaremos as nossas cidades mais verdes, melhorando a mobilidade
+                    sustentável.</p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/luis_rita-07.png" height="1200" width="1200" alt="Foto Orador (Luís Rita)" />
+
+                </div>
+              </div>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Bruno Parra (Deloitte)</h2>
+                  <h3 class="orador_nome_palestra_workshop">"Data Science in the real world – Desafios de
+                    industrialização de Machine Learning"</h3>
+                  <p>Bruno Parra é um Tech Manager na divisão de Consulting da Deloitte, no grupo de
+                    Analytics & Cognitive, liderando as equipas de engenharia de Big Data e Machine
+                    Learning.
+                    Durante a sua carreira o Bruno desenvolveu expertise nos domínios de Big Data,
+                    Inteligência Artificial e Arquiteturas em Cloud (AWS, Azure e GCP) em vários
+                    clientes de diferentes países, como Reino Unido, Dinamarca, Portugal, Canadá,
+                    Estados Unidos, Islândia, Angola, entre outros.</p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/bruno_parra-12.png" height="1200" width="1200" alt="Foto Orador (Bruno Parra)" />
+
+                </div>
+              </div>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Carolina Sá (Agência Espacial Portuguesa)</h2>
+                  <h3 class="orador_nome_palestra_workshop">"Desafios em Geral do Processamento de Dados
+                    de Observação da Terra"</h3>
+                  <p>Gestora de Projectos de Observação da Terra na Agência Espacial Portuguesa; Formação
+                    em Ciências Marinhas e especialização em detecção remota por satélite para o estudo
+                    dos oceanos, com enfoque na avaliação de algoritmos de qualidade da água em áreas
+                    costeiras e dinâmica do fitoplâncton. Co-chair do painel de avaliação da competição
+                    AI Moonshot Challenge promovida pela Portugal Space em parceria com a Unbabel, FCT,
+                    ANI e ESA.</p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/carolina_sa-17.png" height="1200" width="1200" alt="Foto Orador (Carolina Sá)" />
+
+                </div>
+              </div>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Leonardo Azevedo (CERENA - IST)</h2>
+                  <h3 class="orador_nome_palestra_workshop">"SMART - Projeto Vencedor da primeira edição
+                    do Moonshot Challenge"</h3>
+                  <p>Investigador do Centro de Recursos Naturais e Ambiente e Professor Auxiliar do IST.
+                    Faz investigação em modelação de sistemas complexos da Terra, com foco na
+                    caracterização da subsuperfície através da combinação de técnicas de ciência de
+                    dados espaciais e métodos geofísicos. É Investigador Principal do projecto SMART
+                    vencedor da competicção AI Moonshot Challenge em 2020.</p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/leonardo_azevedo-18.png" height="1200" width="1200" alt="Foto Orador (Leonardo Azevedo)" />
+
+                </div>
+              </div>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Catarina Farinha (Unbabel)</h2>
+                  <h3 class="orador_nome_palestra_workshop">"AI at Unbabel"</h3>
+                  <p>AI researcher engineer na Unbabel, focada em projectos relacionados com qualidade
+                    (como evaluation of Machine Translation). Experiência também em text generation e
+                    answer retrieval. Formação em Engenharia Biomédica (IST) e PhD em computational
+                    psychiatry (Faculdade de Medicina, iMM).</p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/catarina_farinha-19.png" height="1200" width="1200" alt="Foto Orador (Catarina Farinha)" />
+
+                </div>
+              </div>
+            </div>
+            <div id="formadores">
+              <h1 class="tit_grande">Workshops</h1>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_André Carvalho e Fábio Santos</h2>
+                  <h3 class="orador_nome_palestra_workshop">"PyTorch" (nível avançado)</h3>
+                  <p>A Filipa tem um mestrado em Engenharia Biomédica e Biofísica, da Universidade Lisboa.
+                    Atualmente é Data Scientist na OutSystems e Coordenadora Científica da Pós Graduação
+                    de Data Science da Rumos onde também lecciona o módulo de Machine Learning.</p>
+                  <h3 class="orador_nome_palestra_workshop">Sobre o workshop</h3>
+                  <p>Este workshop tem como objetivo a introdução de Convolutional Neural Networks com
+                    Pytorch. Será usado o Fashion MNIST para demonstrar como tirar partido deste tipo de
+                    redes para classificação de imagens. Conhecimentos de Python são necessários para
+                    conseguir acompanhar o workshop, assim como algumas bases de machine learning.</p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/filipa_rodrigues-02.png" height="1200" width="1200" alt="Foto Formador (Filipa Rodrigues)" />
+
+                </div>
+              </div>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Fernando Pais (Talkdesk)</h2>
+                  <h3 class="orador_nome_palestra_workshop">"NLP" (nível avançado)</h3>
+                  <p>Fernando Pais é um Data Scientist na Talkdesk, com formação nas áreas de Robótica e
+                    Visão Computacional. Fernando foi investigador na Universidade de Coimbra no
+                    Instituto de Sistemas e Robótica. Lá trabalhou como parte do projeto EuroAge,
+                    desenvolvendo sistemas para orientar a atividade de idosos usando deep learning e
+                    robótica social. O seu trabalho atual na Talkdesk consiste no uso de Processamento
+                    de Linguagem Natural para recuperação de informação, no contexto de sistemas de
+                    recomendação e análise de dados.</p>
+                  <h3 class="orador_nome_palestra_workshop">Sobre o workshop</h3>
+                  <p>Este workshop tem como objectivo explorar redes neuronais aplicadas a NLP e como
+                    construir embeddings com keras. Irão ser exploradas e analisadas as propriedades
+                    desses embeddings assim como tirar proveito deles. São recomendados conhecimentos de
+                    Python, assim como algumas bases de machine learning.
+                  </p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/fernando_pais-16.png" height="1200" width="1200" alt="Foto Formador (Fernando Pais)" />
+
+                </div>
+              </div>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Catarina Silva</h2>
+                  <h3 class="orador_nome_palestra_workshop">"Python" (nível iniciante)</h3>
+                  <p>Catarina Silva é Professora Auxiliar do Departamento de Engenharia Informática da
+                    Universidade de Coimbra. Tem doutoramento em Engenharia Informática, com 20 anos de
+                    experiência no ensino de Engenharia Informática, além de supervisionar estudantes de
+                    Mestrado e Doutoramento. É investigadora do Grupo de Computação Adaptativa do Centro
+                    de Informática e Sistemas da Universidade de Coimbra (CISUC), sendo a aprendizagem
+                    computacional e o reconhecimento de padrões as suas principais áreas de
+                    investigação. Com competência na coordenação de projetos de diferentes tamanhos e de
+                    eventos científicos, envolvendo pessoas de diferentes origens, como professores,
+                    estudantes, ex-alunos e empresas. Autora e coautora de 4 livros, de cerca de 20
+                    artigos de revistas científicas e 50 artigos de conferências. Pertence ao comité
+                    científico e é revisora de artigos de várias conferências e revistas. Presidente da
+                    Assembleia Geral da associação portuguesa de reconhecimento de padrões (APRP),
+                    membro sénior do IEEE da Sociedade de Inteligência Computacional. Presidente da
+                    secção portuguesa do IEEE.</p>
+                  <h3 class="orador_nome_palestra_workshop">Sobre o workshop</h3>
+                  <p>A linguagem Python tem vindo a suscitar um interesse crescente dada a sua
+                    simplicidade, versatilidade e a possibilidade de resolver problemas em muitos
+                    contextos.
+                    Neste workshop o objetivo é proporcionar uma primeira introdução à linguagem Python
+                    a pessoas com alguma familiaridade com a lógica de programação.
+                  </p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/catarina_silva-06.png" height="1200" width="1200" alt="Foto Formador (Catarina Silva)" />
+
+                </div>
+              </div>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Saghir Bashir</h2>
+                  <h3 class="orador_nome_palestra_workshop">"R" (nível iniciante)(este workshop será dado
+                    em inglês)</h3>
+                  <p>Saghir Bashir é consultor estatístico da ilustat, uma empresa de consultoria e
+                    formação em ciência de dados. Depois de obter um PhD em “Bioestatística e
+                    Epidemiologia” na Universidade de Cambridge (Reino Unido), ele trabalhou em vários
+                    projetos de ciência de dados da vida real nos setores público e privado. O sucesso
+                    da sua vasta experiência internacional baseia-se na sua natureza pragmática e
+                    colaborativa. Ele é um comunicador natural que envolve ativamente o público nas suas
+                    apresentações, cursos e workshops.</p>
+                  <h3 class="orador_nome_palestra_workshop">Sobre o workshop</h3>
+                  <p>This on-line workshop aims to give you a flavour of R through graphical
+                    visualisation. You will see how R can be used to create and customise beautiful
+                    plots using real life data.
+                    After a presentation of motivation and concepts, the focus will be on participants
+                    to produce graphs using ggplot2. During the exercises the participants will use R
+                    Markdown to produce nicely formatted HTML files.
+                  </p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/saghir_bashir-08.png" height="1200" width="1200" alt="Foto Formador (Saghir Bashir)" />
+
+                </div>
+              </div>
+            </div>
+            <div id="debatentes">
+              <h1 class="tit_grande">Debates</h1>
+              <h2 class="nome_debate">"Data Science em Portugal - Mercado & Sociedade"</h2>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Guilherme Ramos Pereira (DSPA)</h2>
+                  <p>Com um percurso académico e profissional que contempla diversas experiências
+                    nacionais e internacionais, em empresas nacionais e multinacionais, com destaque
+                    para o seu trabalho desenvolvido entre 2008 e 2015 enquanto Diretor Executivo da
+                    Associação Portugal Outsourcing em prol da afirmação do setor português de serviços
+                    com recurso a tecnologias de informação junto dos principais stakeholders globais do
+                    negócio, Guilherme Ramos Pereira assumiu a Direção Executiva da DSPA em Janeiro de
+                    2018 com o objetivo pessoal e profissional de contribuir ativamente para a afirmação
+                    de um setor que está na linha da frente da transformação da sociedade e da
+                    economia.</p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/guilherme_ramos_pereira-09.png" height="1200" width="1200" alt="Foto Orador (Guilherme Ramos Pereira)" />
+
+                </div>
+              </div>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Miguel José Monteiro (DSSG)</h2>
+                  <p>Miguel José Monteiro is a Data Science Lead at mojo diagnostics, working in the field
+                    of fertility care using AI and robotics. He holds an MSc in Biomedical Engineering
+                    from the Faculty of Engineering of Porto and has worked in Data Science since 2014
+                    (back when Matlab was "cool"), in both research and industry environments. Besides
+                    that, Miguel co-founded Data Science for Social Good Portugal and World Data League,
+                    which makes him a pro in not having enough time in his schedule to fit any more
+                    activities.
+                  </p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/miguel_jose_monteiro-10.png" height="1200" width="1200" alt="Foto Orador (Miguel José Monteiro)" />
+
+                </div>
+              </div>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Rui Mendes (DSPT)</h2>
+                  <p>Licenciado em matemáticas aplicadas e mestre em sistemas de informação. É analista de
+                    dados na GoWi-Fi, entusiasta de ciência de dados e apaixonado em organizar eventos
+                    para audiências tecnológicas.
+                    Fundou a associação sem fins lucrativos Data Science Portugal (DSPT), a maior
+                    comunidade de cientistas de dados em Portugal. É co-fundador da Ripply, startup
+                    focada na organização de datathons.
+                    Acredita, também, que tem em casa duas futuras cientistas de dados.</p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/rui_mendes-11.png" height="1200" width="1200" alt="Foto Orador (Rui Mendes)" />
+
+                </div>
+              </div>
+              <h2 class="nome_debate">"Desafios e barreiras para as mulheres na área de TI"</h2>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Margarida Afonso (PWIT)</h2>
+                  <p>Margarida Afonso é Senior Program Manager, com profunda experiência em gerência de
+                    programas de transformação internacional com equipas multiculturais distribuídas.
+                    É professora convidada no ISEP, ensinando Agile a futuros engenheiros, e ainda
+                    coach e mentora para engenheiros e gerentes na Portuguese Women in Tech.</p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/margarida_afonso.png" height="1200" width="1200" alt="Foto Orador (Margarida Afonso)" />
+
+                </div>
+              </div>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Vânia Gonçalves (Geek Girls Portugal)</h2>
+                  <p>Vânia Gonçalves é Technology & Innovation Business Partner na Unilabs Portugal e
+                    fundadora da comunidade Geek Girls Portugal, comunidade fundada em 2010 cuja missão
+                    se foca no apoio, capacitação e progressão profissional de mulheres na área
+                    tecnológica.
+                    Conta com cerca de 20 anos de carreira internacional na área de TI, incluindo
+                    funções de I&D e gestão e coordenação na academia e nos setores público e privado em
+                    várias áreas de negócio como telecomunicações, média e saúde.
+                    Tem doutoramento em Médias Digitais pela Universidade do Porto e Vrije Universities
+                    Brussel, mestrado em Políticas Tecnológicas pela Universidade de Cambridge e
+                    licenciatura em Eng. Informática pela FEUP.
+                  </p>
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/vania_goncalves.png" height="1200" width="1200" alt="Foto Orador (Vânia Gonçalves)" />
+
+                </div>
+              </div>
+              <div class="orador">
+                <div class="orador_info">
+                  <h2 class="orador_subtitulo">_Bárbara Barbosa (Creditas)</h2>
+                  <p>Mestre em Sistemas de informação com pesquisa em processamento de linguagem natural
+                    pela USP, atualmente é Gerente de Ciência de Dados na Creditas, apoiando a evolução
+                    técnica e de carreira do time. Participa em diversos projetos de diversidade
+                    feminina na tecnologia, como Rails Girls, Women Dev Summit e Women in Data Science e
+                    Mulheres em Inteligência Artificial.
+                </div>
+                <div>
+                  <img class="foto_orador" src="img/barbara_barbosa.png" height="1200" width="1200" alt="Foto Orador (Bárbara Barbosa)" />
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </scrool-page>
+        <scrool-page id="voluntariado">
+          <div class="info">
+            <div class="voluntario margin-top">
+              <h1 class="tit_grande">Queres ser Voluntário?</h1>
+              <div class="informação">
+                <p>
+                  Neste momento não existe informação acerca desta possibilidade.
+                </p>
+                <!--<p>Junta-te à equipa da Mind Your Data e tem uma experiência diferente!<br>
+                                Vem ajudar a fazer da MYD uma experiencia memorável!<br>
+                            </p>-->
+                <!--Setivermos inscrições abertas-->
+                <!--<h1>O que tens de fazer?</h1>
+                        <p>Tens apenas de te inscrever <a href="https://jestfctuc.typeform.com/to/o7sMmA"
+                                                          class="sublinhado">aqui</a>! <br>
+                            E trazer a tua boa disposição!</p>-->
+              </div>
+            </div>
+          </div>
+        </scrool-page>
+        <scrool-page id="planeamento">
+          <div class="info">
+            <h1 class="tit_grande">Programa da 4ª Edição</h1>
+            <img class="planeamento" src="img/plano_provisorio_72dpi-05.png" alt="Plano Final (27 de fevereiro)" width="1200" height="1200">
+            <img class="planeamento" src="img/plano_provisorio_72dpi-06.png" alt="Plano Final (28 de fevereiro)" width="1200" height="1200">
+          </div>
+        </scrool-page>
+        <scrool-page id="precos">
+          <div class="info">
+            <h1 class="tit_grande">Preçário</h1>
+            <p>Os preços para participar na 4ª Edição da MYD são os apresentados nas imagens abaixo.
+              <br>
+              Neste ano, 20% do valor dos bilhetes irá reverter para a Associação Acreditar - Associação de
+              Pais e Amigos de Crianças com Cancro. Caso queiras consultar o trabalho desta associação ou
+              fazer
+              um donativo maior, podes aceder ao <a href="https://www.acreditar.org.pt/pt">site</a> da
+              associação ou ao <a href="https://www.easypay.pt/form/?f=acreditar">easypay</a> da mesma, para
+              efetuar as duas ações, respetivamente.
+            </p>
+            <img class="preco" src="img/precos-05.png" alt="Preços individuais" width="1200" height="1200">
+            <img class="preco" src="img/precos-06.png" alt="Preço de grupo" width="1200" height="1200">
+          </div>
+        </scrool-page>
+        <scrool-page class="empresas">
+          <div class="info">
+            <h1 class="tit_grande">Quem irá marcar presença nesta edição</h1>
+            <div class="empresas_participantes">
+              <a href="https://www.cycleai.net/">
+                <img class="logo_empresa" src="img/CycleAI.jpg" alt="Logotipo CycleAI" width="400" height="400">
+              </a>
+              <a href="https://www.noesis.pt/">
+                <img class="logo_empresa" src="img/Logo%20Noesis_Original.png" alt="Logotipo Noesis" width="2108" height="1185">
+              </a>
+              <a href="https://www.closer.pt/">
+                <img class="logo_empresa" src="img/logo_closer.png" alt="Logotipo Closer" width="842" height="595">
+              </a>
+              <a href="https://www.truewindglobal.com/">
+                <img class="logo_empresa" src="img/logo_truewind.png" alt="Logotipo Truewind" width="2481" height="695">
+              </a>
+              <a href="https://www2.deloitte.com/pt/pt.html">
+                <img class="logo_empresa" src="img/logo_deloitte.png" alt="Logotipo Deloitte" width="1280" height="720">
+              </a>
+              <a href="https://ptspace.pt/pt/home/">
+                <img class="logo_empresa" src="img/logo_ptspace.png" alt="Logotipo Agência Espacial Portuguesa" width="598" height="258">
+              </a>
+              <a href="https://tecnico.ulisboa.pt/pt/">
+                <img class="logo_empresa" src="img/logo_ist.png" alt="Logotipo Instituto Superior Técnico" width="842" height="595">
+              </a>
+              <a href="https://cerena.ist.utl.pt/">
+                <img class="logo_empresa" src="img/logo_cerena.png" alt="Logotipo CERENA" width="1316" height="1323">
+              </a>
+              <a href="https://unbabel.com/">
+                <img class="logo_empresa" src="img/logo_unbabel.PNG" alt="Logotipo Unbabel" width="336" height="116">
+              </a>
+              <a href="https://www.facebook.com/ieeeucsb/">
+                <img class="logo_empresa" src="img/logo_ieee.png" alt="Logotipo IEEE" width="921" height="341">
+              </a>
+              <a href="https://www.talkdesk.com/">
+                <img class="logo_empresa" src="img/logo_talkdesk.png" alt="Logotipo Talkdesk" width="2818" height="1024">
+              </a>
+              <a href="https://dspa.pt/"><img class="logo_empresa" src="img/DSPA_LOGO.png" alt="Logotipo DSPA" width="1270" height="445"></a>
+              <a href="https://www.dssg.pt/"><img class="logo_empresa" src="img/dssg_logo_lettering.png" alt="Logotipo DSSG" width="2967" height="2016"></a>
+              <a href="https://www.datascienceportugal.com/"><img class="logo_empresa" src="img/LogoDSPT_Grey-300_225.png" alt="Logotipo DSPT" width="300" height="225"></a>
+              <a href="http://geekgirlsportugal.pt/"><img class="logo_empresa" src="img/logo_geekgirls.png" alt="Logotipo Geek Girls Portugal" width="375" height="219"></a>
+            </div>
+          </div>
+        </scrool-page>
+        <scrool-page class="empresas">
+          <div id="apoios" class="info">
+            <h1 class="tit_grande">A 4ª Edição da MYD conta com o apoio de:</h1>
+            <div class="empresas_participantes">
+              <a id="link_logo_fctuc" href="https://www.uc.pt/fctuc">
+                <img class="logo_empresa" src="img/logo_fctuc.png" alt="Logotipo FCTUC" width="3055" height="1079">
+              </a>
+            </div>
+          </div>
+        </scrool-page>
+        <scrool-page id="edicoesanteriores">
+          <div class="info pequeno">
+            <h1 class="tit_grande margin-top"> Edições anteriores</h1>
+            <div class="edicoes fundoBranco">
+
+              <div>
+                <img src="img/programa_editorial_Prancheta%201.png" height="500" width="375">
+              </div>
+
+              <div>
+
+                <img src="img/myd2019.png" height="500" width="375" />
+
+              </div>
+              <div class="meio segundalinha">
+
+                <img src="img/myd2018.png" height="500" width="375" />
+
+              </div>
+            </div>
+          </div>
+        </scrool-page>
+      </scroll-page>
+    </main>
+    <footer class="footer">
+      <scrool-page id="participar">
+        <div id=" inscricoes">
+          <div class="titulos">
+            <!--tirem isto qd abrirem as inscrições         o style aqui por baixo-->
+            <h1 class="tit_grande2" style="font-family: 'Roboto', sans-serif; font-weight: normal;">
+              <!-- Se estamos c inscrições abertas (substituir link do formulário)-->
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLScalJDfl_0LkECf_C446C5LMDNycPA7vftDBbqjSPkJSUtoDg/viewform">Participar</a>
+              <!--Se não houver inscrições abertas-->
+              <!--Ainda não temos as incrições abertas.-->
+
+            </h1>
+            <h1 class="tit_grande2">
+              <!--É para deixar ficar sempre-->
+              Segue-nos nas redes sociais para saber mais!
+
+            </h1>
+          </div>
+          <div class="content">
+            <div class="gallery">
+              <div class="quarto">
+                <a href="https://www.facebook.com/jest.myd/"><img src="img/facebook.svg" alt="Ícone Facebook" width="50" height="50"></a>
+              </div>
+              <div class="quarto">
+                <a href="https://www.instagram.com/mindyourdata/"><img src="img/instagram.png" alt="Ícone Instagram" width="50" height="50"></a>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </scrool-page>
+
+
+      <div class="item4">
+        <p>Departamento de Física <br>
+          Rua Larga 2, 2° andar, sala E35, 3000-370, Coimbra
+          <br> Portugal
+        </p>
+      </div>
+      <div class="item3">
+        <p> geral@jest.pt <br>
+          +351 924310822 <br>
+          © jest 2021.</p>
+      </div>
+      <div id="maps"></div>
+
+      <!--Pareceiros-->
+
+
+    </footer>
+
+  </scroll-container>
+  <script src="js/js.myd.js"></script>
+  <script src="js/menu.myd.js"></script>
+</body>
+
+</html>
